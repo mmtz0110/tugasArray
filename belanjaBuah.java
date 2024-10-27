@@ -56,6 +56,8 @@ public class belanjaBuah {
                     System.out.println("Diskon(15%):  "+(int)diskon);
                     int bayar = total - (int)diskon;
                     System.out.println("bayar: "+bayar);
+                }else if(pilih == 3){
+                    lanjut = false;
                 }
             }
         sc.close();
